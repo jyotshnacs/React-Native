@@ -8,15 +8,32 @@ import {
 } from "react-native";
 import Constants from "expo-constants";
 import React from "react";
+// type CatProps = {
+//   name: String,
+// };
+
+// const Cat = (props: CatProps) => {
+//   return (
+//     <View>
+//       <Text>Hello, I am {props.name}!</Text>
+//     </View>
+//   );
+// };
+// const Cafe = () => {
+//   return (
+//     <View>
+//       <Cat name="Whiskers" />
+//     </View>
+//   );
+// };
 
 function App() {
   return (
     <ScrollView>
       <Text>Hello World!</Text>
       <View>
-        <Text>Hello Again!!</Text>
         <Image
-          source={{ uri: "https://reactnative.dev/docs/assets/p_cat2.png" }}
+          source={{ uri: "https://reactnative.dev/docs/assets/p_cat1.png" }}
           style={{ width: 200, height: 200 }}
         />
       </View>
