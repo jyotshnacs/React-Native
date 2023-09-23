@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import Constants from "expo-constants";
 import React from "react";
+import Cats from "./components/Cats";
 // type CatProps = {
 //   name: String,
 // };
