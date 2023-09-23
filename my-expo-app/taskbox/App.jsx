@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import Constants from "expo-constants";
 import React from "react";
-import Cats from "./components/Cats";
+import Cafe from "./components/Cats";
 // type CatProps = {
 //   name: String,
 // };
@@ -38,6 +38,7 @@ function App() {
           style={{ width: 200, height: 200 }}
         />
       </View>
+      <Cafe />
       <TextInput
         style={{ height: 40, borderColor: "gray", borderWidth: 1 }}
         defaultValue="Type here"
